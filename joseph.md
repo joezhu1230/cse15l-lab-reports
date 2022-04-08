@@ -1,14 +1,15 @@
-*Pizza*
-**kimchi**
+*UCSD*
+**UCSD**
 # CSE15l
 ## cse12
 [Link](http://ucsd.edu)
+
 ![Image](http://url/a.png)
-> Blockquote
-> 
->* muir
->* sixth
->
+> UCSD
+
+* muir
+* sixth
+
 1. makai
 2. noodles
 3. rooftop
@@ -16,9 +17,7 @@
 Horizontal rule:
 
 ---
-`Inline code` with backticks
+`code` 
 ```
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
+morecode
 ```
