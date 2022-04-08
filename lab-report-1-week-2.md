@@ -1,3 +1,17 @@
+# Lab Report 1 Week 2
 
-![Screenshot 2022-04-08 151003](https://user-images.githubusercontent.com/103288060/162539062-ff28eeee-417b-45f7-bb9c-febf3a24fb59.png)
-[Lab Report 1](https://github.com/joezhu1230/cse15l-lab-reports)
+1. **Installing VSCode** 
+
+To install VSCode, go to  [https://code.visualstudio.com/](https://code.visualstudio.com/). Once installed, open VSCode and it should look like this:
+
+2. **Remote Connecting**
+
+Open the terminal in VSCode and enter 
+
+`$ ssh cs15lsp22ahv@ieng6.ucsd.edu`
+
+(be sure to replace `ahv` with your own letters from your account). Once entered, your terminal should look like this:
+
+3. **Trying Commands**
+
+
