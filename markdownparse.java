@@ -32,7 +32,12 @@ public class MarkdownParse {
 
         return toReturn;
     }
-
+	if (! markdown.substring(currentIndex).contains("[") 
+               	|| ! markdown.substring(currentIndex).contains("]")
+                || ! markdown.substring(currentIndex).contains("(")
+                || ! markdown.substring(currentIndex).contains("[")) {
+                    break;
+                }
 
     public static void main(String[] args) throws IOException {
         Path fileName = Path.of(args[0]);
