@@ -28,13 +28,7 @@ public class MarkdownParse {
             toReturn.add(markdown.substring(openParen + 1, closeParen));
             currentIndex = closeParen + 1;
 
-            if (! markdown.substring(currentIndex).contains("[") 
-                || ! markdown.substring(currentIndex).contains("]")
-                || ! markdown.substring(currentIndex).contains("(")
-                || ! markdown.substring(currentIndex).contains("[")) {
-                    break;
-                }
-        }
+           
 
         return toReturn;
     }
