@@ -9,3 +9,14 @@
 
 5. The failure inducing input is due to the test file having extra lines after the links, which caused the symptom shown above when running in command.
 The symptom also shows that the code ran into an infinite loop, this is because the MarkdownParse did not handle the case where there are extra lines, which resulted in a bug that caused an infinite loop. 
+
+### Code change 2
+1. screenshot of the commited code change ![Screenshot 2022-05-02 142541](https://user-images.githubusercontent.com/103288060/166330291-8291f4e3-ba2a-4846-93cb-3d45fd9fed7a.png)
+
+
+2. link to the failure inducing input file: ![test-file3](https://github.com/joezhu1230/Lab-2-/blob/main/test-file3.md)
+3. symptom of the failure inducing input
+4. fixed bug in commit history: ![Screenshot 2022-05-02 142243](https://user-images.githubusercontent.com/103288060/166329897-16c2ae7e-c6d5-4edc-b5f9-2360f486c461.png)
+
+5. The failure inducing input is due to the test file not having parentheses before and after the links, which caused the symptom shown above when running in command.
+The symptom also shows that the code ran an IndexOutOfBoundsException, this is because the MarkdownParse's getLinks method first looks for parentheses when looking for a link, in this case it was not able to find it and therefore it caused the bug. 
