@@ -19,6 +19,7 @@
 
 ## Copy whole directories with `scp -r`
 - Copying your whole markdown-parse directory to ieng6 account.
+![Screenshot 2022-05-16 222025](https://user-images.githubusercontent.com/103288060/168741049-fe6a7781-9fda-44f3-8174-c64b891ca343.png)
 - Logging into your ieng6 account and compiling and running the tests.
 - Combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
 
