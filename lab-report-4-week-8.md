@@ -1,7 +1,7 @@
 # Lab Report 4
 
-> [Link to my markdown-parse](https:)  
-> [Link to other group's markdown-parse](https:)
+> [The link to my markdown-parse](https://github.com/joezhu1230/markdown-parser)  
+> [The link to the other group's markdown-parse]([https:](https://github.com/jemilparikh/markdown-parser))
 
 > ### Snippet 1
 * What it should produce:  
