@@ -39,6 +39,14 @@
   ![Screenshot 2022-05-22 205148](https://user-images.githubusercontent.com/103288060/169740100-630bdd2c-16ce-4802-ab19-4f49212d63d0.png)
 
 
+---
+> ## Question 1
+* There is a possibility that a small code change will make the program work for snippet 1 (and all related cases that use inline code with backtick). The implementation  would be to stop printing links if there are backticks in the file.
 
+> ## Question 2
+* It is not possible that a small code change will make my program work for snippet 2 (and all related cases that nest parentheses, brackets, and escaped brackets). This is due to the fact that determining whether the parentheses and brackets are nested correctly requires a big code change that checks the entire string. This cannot be done with a small code change.
+
+> ## Question 3
+* There is a possibility that a small code change will make the program work for snippet 3 (and all related cases that have newlines in brackets and parentheses). One way to implement it is to add a condition that if there are spaces between two parentheses the code will stop printing the link.
 
 
